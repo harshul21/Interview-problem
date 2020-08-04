@@ -36,6 +36,7 @@ int print(node* root)
     cout<<root->data<<" ";
     print(root->left);
     print(root->right);
+    return 0;
 }
 int main()
 {
