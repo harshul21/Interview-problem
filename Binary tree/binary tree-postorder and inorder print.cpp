@@ -38,6 +38,7 @@ int printIn(node* root)
     printIn(root->left);
     cout<<root->data<<" ";
     printIn(root->right);
+    return 0;
 }
 ///Postorder Traversal
 int printPo(node* root)
@@ -50,6 +51,7 @@ int printPo(node* root)
     printPo(root->left);
     printPo(root->right);
     cout<<root->data<<" ";
+    return 0;
 }
 int main()
 {
