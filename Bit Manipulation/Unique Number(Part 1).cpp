@@ -1,3 +1,5 @@
+//Input array is of the type {1,1,2,3,3}
+//i.e there is only one unique number
 #include<iostream>
 using namespace std;
 int unique(int arr[],int n)
