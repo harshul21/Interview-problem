@@ -14,7 +14,7 @@ int main()
     }
     cout<<str<<endl;
     
-    //convert intp lower case
+    //convert into lower case
     for(int i=0;i<str.lenght();i++)
     {
         if(str[i]>='A' && str[i]<='Z')
