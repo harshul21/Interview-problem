@@ -3,8 +3,8 @@ using namespace std;
 void swap(int *a,int *b)
 {
     int temp=*a;
-    *b=*a;
-    *a=temp;
+    *a=*b;
+    *b=temp;
 }
 void dnfsort(int arr[],int n)
 {
@@ -19,11 +19,11 @@ void dnfsort(int arr[],int n)
             low++;
             mid++;
         }
-        if(arr[mid]==1)
+        else if(arr[mid]==1)
         {
             mid++;
         }
-        if(arr[mid]==2)
+        else
         {
             swap(&arr[mid],&arr[high]);
             high--;
