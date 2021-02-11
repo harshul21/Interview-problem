@@ -84,5 +84,7 @@ int main() {
     insertAtTail(head,4);
     insertAtHead(head,0);
     display(head);
+    deletion(head,2);
+    display(head);
     return 0;
 }
